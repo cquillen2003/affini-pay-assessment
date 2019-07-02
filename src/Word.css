@@ -1,0 +1,42 @@
+.word {
+	display: inline-block;
+	position: relative;
+	padding-right: 0.35rem;
+	color: white;
+}
+
+.word:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.word-highlighed {
+	color: #61dafb;
+	text-decoration: underline;
+}
+
+.popover {
+	position: absolute;
+	top: 40;
+	padding: 1.2rem 1.2rem 2rem 1.2rem;
+	color: black;
+	width: 35rem;
+	background-color: white; 
+	z-index: 1000;
+	cursor: auto;
+	font-size: 1.4rem;
+}
+
+.popover-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 1rem;
+	font-size: 1.8rem;
+}
+
+.popover-header-close {
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 1rem;
+}
